@@ -47,26 +47,25 @@ prompt("How many units of this fantastic product would you like to buy?")
 
 insert into products
 
-["beer" "dumbbells" "watches" "web development" "show hosting" "select board games" ];
 
 //The first should ask them the ID of the product they would like to buy.
 // The second message should ask how many units of the product they would like to buy.
 
 //7. Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
 //on click confirm button
-DROP DATABASE IF EXISTS greatBay_DB;
-CREATE DATABASE greatBay_DB;
+DROP DATABASE IF EXISTS amazondb;
+CREATE DATABASE amazondb;
 
 USE bamazondb;
 
-CREATE TABLE auctions(
+CREATE TABLE products(
   id INT NOT NULL AUTO_INCREMENT,
   item_name VARCHAR(100) NOT NULL,
  item_quantity INT 
   PRIMARY KEY (id)
 );
 
-function FoodItem(options){
+function buyItem(options){
     var options = options || {};
     this.name = options.name || "DefaultFood";
     this.amount = options.amount || 100;
@@ -89,7 +88,7 @@ var carrots = new FoodItem({
 carrots.eat();
 
 //If not, the app should log a phrase like `
-console.log("Insufficient quantity!");
+console.log("Insufficient quantity!"); 
 
 // and then prevent the order from going through.
 
