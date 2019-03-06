@@ -1,0 +1,19 @@
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ('100 pack of personal training', 'fitness', $7000, 500);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES  ('10 pack of personal training', 'fitness', $700, 500);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES 	('Reading Rambo Shirt', 'T-shirts', $22, 300);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ('Galactic Empire Shirt Shirt', 'T-shirts', $22, 300);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES  ('10 pack of personal training', 'fitness', $700, 500);
+
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES   ('2nd Chance Brewing / Alesmith 4 Blend-o-matic', 'beer', $16, 100);
