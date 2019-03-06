@@ -2,7 +2,7 @@
 // Req's
 var inquirer = require('inquirer');
 var mysql = require('mysql');
-var Table = require('console.table');
+ require('console.table');
 
 // Define the MySQL connection parameters
 var connection = mysql.createConnection({
@@ -38,7 +38,7 @@ function validateInput(value) {
 }
 
 // prompt the user for the item/quantity 
-function promptUserPurchase() {
+function promptUser() {
 	// console.log('___ENTER promptUserPurchase___');
 
 	// Prompt the user to select an item
@@ -79,8 +79,8 @@ function promptUserPurchase() {
 			} else {
 				var productData = data[0];
 
-				// console.log('productData = ' + JSON.stringify(productData));
-				// console.log('productData.stock_quantity = ' + productData.stock_quantity);
+				console.log('productData = ' + JSON.stringify(productData));
+				console.log('productData.stock_quantity = ' + productData.stock_quantity);
 
 				// If the quantity requested by the user is in stock
 				if (quantity <= productData.stock_quantity) {
@@ -88,7 +88,7 @@ function promptUserPurchase() {
 
 					// Construct the updating query string
 					var updateQueryStr = 'UPDATE products SET stock_quantity = ' + (productData.stock_quantity - quantity) + ' WHERE item_id = ' + item;
-					// console.log('updateQueryStr = ' + updateQueryStr);
+					// console.log('item_id');
 
 					// Update the inventory
 					connection.query(updateQueryStr, function(err, data) {
@@ -112,6 +112,18 @@ function promptUserPurchase() {
 		})
 	})
 }
+
+function runBamazon() {
+	console.log('___ENTER runBamazon___');
+
+	// Display the available inventory
+	loadProducts();
+}
+// Run the application logic
+runBamazon();
+
+
+
 
 // // displayInventory will retrieve the current inventory from the database and output it to the console
 // function displayInventory() {
@@ -144,12 +156,3 @@ function promptUserPurchase() {
 // 	  	promptUserPurchase();
 // 	})
 // }
-
-function runBamazon() {
-	// console.log('___ENTER runBamazon___');
-
-	// Display the available inventory
-	displayInventory();
-}
-// Run the application logic
-runBamazon();
