@@ -13,7 +13,7 @@ Step 4: erase any $dollar sign$ that are mucking up the code and preventing the 
 ![4]:(/enterNodeCmd4.gif "cmdLine4")
 Step 5: Now you can see the table and enter in the id and quantity.
 ![5]:(/enterNodeCmd5.gif "cmdLine5")
-![OS3]:(https://github.com/jamesravenscroft/SuperMarket/officespace3.gif "officespace3")
+![OS3]:(https://github.com/jamesravenscroft/SuperMarket/blob/master/officespace3.gif "officespace3")
 
 **Badges will go here**
 
