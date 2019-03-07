@@ -11,7 +11,7 @@ If Not enough quantity, inform the user:
 ![3](/enterNodeCmd3.gif "cmdLine3")
 ![OS2](/officespace2.gif "officespace2")
 Step 4: Now, go back to the original folder and make a new file to fix all the horrible mistakes that have taken place. Erase any $dollar sign$ that are mucking up the code and preventing the table from appearing.
-![myqsl(/mysqlParamCheckDB.gif "mysql)
+![myqsl](/mysqlParamCheckDB.gif "mysql")
 ![4](/enterNodeCmd4.gif "cmdLine4")
 Step 5: Now you can see the table and enter in the id and quantity.
 ![5](/enterNodeCmd5.gif "cmdLine5")
