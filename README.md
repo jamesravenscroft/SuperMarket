@@ -1,5 +1,5 @@
 Welcome to the SuperMarket!
-
+Current Most Workingest version of this is: bamazonMostRecent.js
 # bamazon command line app
 Step 1: start process in Terminal
 ![1](enterNodeCmd.gif "cmdLine1")
