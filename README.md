@@ -2,7 +2,7 @@ Welcome to the SuperMarket!
 
 # bamazon command line app
 Step 1: start process in Terminal
-![1]:(/enterNodeCmd1.gif "cmdLine1")
+![1]:(SuperMarket/enterNodeCmd1.gif "cmdLine1")
 Step 2: when that doesn't work, try again (no table)
 ![OS1]:(/officespace1.gif "officespace1")
 ![2]:(/enterNodeCmd2.gif "cmdLine2")
