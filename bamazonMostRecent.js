@@ -11,7 +11,6 @@ var connection = mysql.createConnection({
 	// Your username
 	user: 'root',
 	// Your password
-	password: "HerdyDerdy202",
 	database: "bamazon"
 });
 function loadProducts() {
