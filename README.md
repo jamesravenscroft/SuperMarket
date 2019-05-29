@@ -7,4 +7,5 @@ Start process in Terminal
 
 You can see the table and enter in the id and quantity.
 ![5](/enterNodeCmd5.gif "cmdLine5")
+Maybe its time to buy a new Fax Machine...
 ![OS3](/offficespace3.gif "officespace3")
