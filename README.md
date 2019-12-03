@@ -1,7 +1,10 @@
 Welcome to the SuperMarket!
 Current Most Workingest version of this is: bamazonMostRecent.js
 # bamazon command line app
-Start process in Terminal
+Start process in Terminal.
+ enter:
+ node bamazonMostRecent.js.
+ Search for movies, concerts or launch Spotify.
 
 ![3](/enterNodeCmd3.gif "cmdLine3")
 
