@@ -1,4 +1,6 @@
-Welcome to the SuperMarket!
+# Welcome to the SuperMarket!
+This is a model CLI store.
+
 Current Most Workingest version of this is: bamazonMostRecent.js
 # bamazon command line app
 Start process in Terminal.
