@@ -4,7 +4,7 @@ Current Most Workingest version of this is: bamazonMostRecent.js
 Start process in Terminal.
  enter:
  node bamazonMostRecent.js.
- Search for movies, concerts or launch Spotify.
+
 
 ![3](/enterNodeCmd3.gif "cmdLine3")
 
